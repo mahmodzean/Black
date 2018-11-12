@@ -349,7 +349,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`B!play |mahmod AR Music`,"http://twitch.tv/Death Shop")
+client.user.setGame(`B!play |b!play | BLACK , Server Music`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
