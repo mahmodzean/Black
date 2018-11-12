@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("Scrpit By Dream");
- const prefix = ".";
+ const prefix = "@";
 client.on('ready', () => {
     console.log('I am ready!');
 });
