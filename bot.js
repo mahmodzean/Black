@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+console.log("Scrpit By Dream");
  const prefix = ".";
 client.on('ready', () => {
     console.log('I am ready!');
@@ -1247,8 +1248,7 @@ client.on("message", async () => {
 
 
 
-client.login(`NTA4MzQwNDk2Nzk2NzQ1NzQ4.Dr9_jA.nbf3Dcoo2lFPp5vrbb_ZpoKhjF0
-`);
+client.login(process.env.BOT_TOKEN);
 
 
 
